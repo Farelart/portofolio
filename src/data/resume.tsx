@@ -1,15 +1,14 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-
-
 export const DATA = {
-  name: "Yassine Yassif",
-  initials: "YY",
+  name: "Farel Ganlaky",
+  initials: "FG",
   url: "https://yyassif.dev",
   location: "Quebec, CA",
   locationLink: "https://www.google.com/maps/place/quebec",
-  description: "Goal-oriented Software Engineer | ML/DL Passionate. I am dedicated to building high-quality products.",
+  description:
+    "Goal-oriented AI Software Developer | ML/DL Passionate. I am dedicated to building high-quality products.",
   summary:
     "I'm a passionate Software Engineer based in Quebec, Canada (Currently). With a strong foundation in Front-end, and Back-end technologies, alongside the focus on AI integration in my solutions. I specialize in creating dynamic, user-friendly web applications that not only meet client needs but also deliver an exceptional user experience. Mainly, [I pursued a double degree in computer science and engineering](/#education), and [competed in 3 hackathons for fun](/#hackathons).",
   avatarUrl: "/me.jpg",
@@ -38,7 +37,7 @@ export const DATA = {
     "Kubernetes",
     "Terraform",
     "AWS",
-    "Git & GitHub / GitLab"
+    "Git & GitHub / GitLab",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -96,7 +95,8 @@ export const DATA = {
       logoUrl: "/assets/work/powergo.png",
       start: "Feb 2024",
       end: "Jul 2024",
-      description: "AI agents that use Retrieval-Augmented Generation (RAG) techniques to efficiently analyze enterprise documents. These agents will extract key insights to support data-driven decision-making.",
+      description:
+        "AI agents that use Retrieval-Augmented Generation (RAG) techniques to efficiently analyze enterprise documents. These agents will extract key insights to support data-driven decision-making.",
     },
     {
       company: "University of Quebec at Rimouski",
@@ -107,7 +107,8 @@ export const DATA = {
       logoUrl: "/assets/work/uqar.png",
       start: "Jul 2023",
       end: "Oct 2023",
-      description: "A robust IoT-based system architecture integrates real-time data logging with a user-friendly dashboard, utilizing cloud technology and LLM inference for data interpretation and action triggering.",
+      description:
+        "A robust IoT-based system architecture integrates real-time data logging with a user-friendly dashboard, utilizing cloud technology and LLM inference for data interpretation and action triggering.",
     },
     {
       company: "ONEE - Electricity Branch",
@@ -118,7 +119,8 @@ export const DATA = {
       logoUrl: "/assets/work/onee.png",
       start: "Jul 2022",
       end: "Sep 2022",
-      description: "Coordinated with Senior Engineers in validating a new protocol architecture for reliable and secure communication between various types of devices, such as sensors, RTUs and SCADA to achieve a robust control over the systems involved.",
+      description:
+        "Coordinated with Senior Engineers in validating a new protocol architecture for reliable and secure communication between various types of devices, such as sensors, RTUs and SCADA to achieve a robust control over the systems involved.",
     },
     {
       company: "Upwork",
@@ -129,7 +131,8 @@ export const DATA = {
       logoUrl: "/assets/work/upwork.png",
       start: "Jan 2022",
       end: "Feb 2024",
-      description: "I leverage AI expertise and web development skills to create customized and innovative solutions for my clients.",
+      description:
+        "I leverage AI expertise and web development skills to create customized and innovative solutions for my clients.",
     },
   ],
   education: [
@@ -148,7 +151,7 @@ export const DATA = {
       logoUrl: "/assets/education/ibn-soulaiman.png",
       start: "2016",
       end: "2019",
-    }
+    },
   ],
   projects: [
     {
@@ -180,7 +183,8 @@ export const DATA = {
       href: "https://github.com/yyassif/ragmind",
       dates: "March 2024 - Present",
       active: true,
-      description: "RAGMind - RAG-Powered Conversational AI Assistant for Enterprise Data, Enforced by Generative AI.",
+      description:
+        "RAGMind - RAG-Powered Conversational AI Assistant for Enterprise Data, Enforced by Generative AI.",
       technologies: [
         "OpenAI",
         "LiteLLM",
@@ -215,11 +219,9 @@ export const DATA = {
       href: "https://github.com/yyassif/gym-seaboat",
       dates: "June 2023 - July 2023",
       active: true,
-      description: "Fishing Boats Simulation in OpenAI-Gym using Reinforcement Learning & PPO Algorithm, GUI Via PyGame.",
-      technologies: [
-        "OpenAI-Gym",
-        "PyGame",
-      ],
+      description:
+        "Fishing Boats Simulation in OpenAI-Gym using Reinforcement Learning & PPO Algorithm, GUI Via PyGame.",
+      technologies: ["OpenAI-Gym", "PyGame"],
       links: [
         {
           type: "Github",
@@ -235,7 +237,8 @@ export const DATA = {
       href: "https://github.com/yyassif/nextjs-document-retrievalQA",
       dates: "February 2024 - March 2024",
       active: true,
-      description: "Chat With Your Documents via RAG (Retrieval Augmented Generation) leveraging the power of LLMs & PgVecor Store.",
+      description:
+        "Chat With Your Documents via RAG (Retrieval Augmented Generation) leveraging the power of LLMs & PgVecor Store.",
       technologies: [
         "OpenAI",
         "Next.js",
@@ -287,7 +290,8 @@ export const DATA = {
       href: "https://squatex.com",
       dates: "June 2023 - July 2023",
       active: true,
-      description: "Squatex: Quebec's leader in renewable energy, driving innovation for a greener, sustainable future.",
+      description:
+        "Squatex: Quebec's leader in renewable energy, driving innovation for a greener, sustainable future.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -339,7 +343,8 @@ export const DATA = {
       href: "https://github.com/yyassif/spotify-recommender",
       dates: "April 2023 - September 2023",
       active: true,
-      description: "Spotify Recommender System using collaborative filtering and content-based filtering.",
+      description:
+        "Spotify Recommender System using collaborative filtering and content-based filtering.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -347,7 +352,7 @@ export const DATA = {
         "Shadcn UI",
         "Spotify-SDK",
         "FastAPI",
-        "Scikit-learn"
+        "Scikit-learn",
       ],
       links: [
         {
@@ -393,7 +398,8 @@ export const DATA = {
       href: "https://github.com/yyassif/thinkai-lguide",
       dates: "May 2024",
       active: true,
-      description: "LGuide-AI - Your Best Touristic Assistant, Empowered by Generative AI.",
+      description:
+        "LGuide-AI - Your Best Touristic Assistant, Empowered by Generative AI.",
       technologies: [
         "GPT-4o",
         "Google-Maps-API",
@@ -450,13 +456,7 @@ export const DATA = {
       active: true,
       description:
         "Data Augmentation powered by GANs (Generative Adversarial Networks) architecture for industrial use cases, specifically Image Data Augmentation for quality inspection tasks.",
-      technologies: [
-        "PyTorch",
-        "Pillow",
-        "Pandas",
-        "Numpy",
-        "LaTex",
-      ],
+      technologies: ["PyTorch", "Pillow", "Pandas", "Numpy", "LaTex"],
       links: [
         {
           type: "Overleaf",
@@ -477,11 +477,9 @@ export const DATA = {
       href: "https://github.com/yyassif/kNN-Gzip-deep-learning",
       dates: "January 2024",
       active: true,
-      description: "Simplistic Linear & Multiprocessed approach to sentiment analysis using Gzip Normalized Compression Distances with k nearest neighbors.",
-      technologies: [
-        "Gzip",
-        "scikit-learn",
-      ],
+      description:
+        "Simplistic Linear & Multiprocessed approach to sentiment analysis using Gzip Normalized Compression Distances with k nearest neighbors.",
+      technologies: ["Gzip", "scikit-learn"],
       links: [
         {
           type: "Github",
@@ -513,26 +511,27 @@ export const DATA = {
       title: "MCPC: Moroccan Collegiate Programming Contest",
       dates: "Oct 19th, 2021",
       location: "Morocco",
-      description: "Solved 7 problems out of 12 in total, attaining the 18th place in the national elimination round.",
+      description:
+        "Solved 7 problems out of 12 in total, attaining the 18th place in the national elimination round.",
       image: "/assets/hackatons/mcpc.jpg",
       mlh: "",
       links: [
         {
-          
           title: "Leaderboard",
           href: "https://x.com/mcpc__news/status/1450595581806747649",
           icon: <Icons.x className="size-3" />,
-        }
+        },
       ],
     },
     {
       title: "ThinkAI Hackathon",
       dates: "May 16th - 19th, 2024",
       location: "Ben Guerir, Morocco",
-      description: "Developed a virtual guide called LGuideAI that helps tourists to navigate morocco easily via the a geolocation system that serves for better discoveery of places.",
+      description:
+        "Developed a virtual guide called LGuideAI that helps tourists to navigate morocco easily via the a geolocation system that serves for better discoveery of places.",
       image: "/assets/hackatons/thinkai.jpeg",
       mlh: "",
       links: [],
     },
-  ]
+  ],
 } as const;

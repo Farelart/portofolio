@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
-  applicationName: "yyassif",
-  generator: "yyassif",
+  applicationName: "farelart",
+  generator: "farelart",
   category: "technology",
   metadataBase: new URL(DATA.url),
   keywords: [
-    "Yassine Yassif",
+    "Ganlaky Farel",
     "Software Engineer",
     "AI Engineer",
     "Machine Learning Engineer",
@@ -156,8 +156,8 @@ export const metadata: Metadata = {
       url: "https://yyassif.dev",
     },
   ],
-  creator: "YASSIF Yassine",
-  publisher: "YASSIF Yassine",
+  creator: "GANLAKY Farel",
+  publisher: "GANLAKY Farel",
   robots: {
     index: true,
     follow: true,
@@ -303,7 +303,9 @@ export default function Page() {
                     Check out my latest work
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    I&apos;ve worked on a variety of projects, from simple to complex websites, AI integrations, and so many more. Here are a few of my favorites.
+                    I&apos;ve worked on a variety of projects, from simple to
+                    complex websites, AI integrations, and so many more. Here
+                    are a few of my favorites.
                   </p>
                 </div>
               </div>
@@ -343,9 +345,9 @@ export default function Page() {
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     During my time in university, I attended{" "}
-                    {DATA.hackathons.length}+ hackathons both as participant &/ mentor. People from around the
-                    country would come together and build incredible things in 2-3
-                    days.
+                    {DATA.hackathons.length}+ hackathons both as participant &/
+                    mentor. People from around the country would come together
+                    and build incredible things in 2-3 days.
                   </p>
                 </div>
               </div>
