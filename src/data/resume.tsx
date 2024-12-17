@@ -459,6 +459,20 @@ export const DATA = {
     },
   ],
   hackathons: [
-    
+    {
+      title: "",
+      dates: "",
+      location: "",
+      description: "",
+      image: "",
+      mlh: "",
+      links: [
+        {
+          title: "",
+          href: "",
+          icon: "",
+        },
+      ],
+    },
   ],
 } as const;
