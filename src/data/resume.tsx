@@ -228,7 +228,7 @@ export const DATA = {
     
      {
       title: "Evento",
-      href: "https://github.com/Farelart/Bytegrad_Professional_React_NextJS/tree/main/evento",
+      href: "https://github.com/Farelart/evento",
       dates: "November 2024",
       active: true,
       description:
@@ -242,8 +242,13 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://evento-gules.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Github",
-          href: "https://github.com/Farelart/Bytegrad_Professional_React_NextJS/tree/main/evento",
+          href: "https://github.com/Farelart/evento",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -252,7 +257,7 @@ export const DATA = {
     },
      {
       title: "RmtDev",
-      href: "https://github.com/Farelart/Bytegrad-professional-JS/tree/main/rmtDev",
+      href: "https://github.com/Farelart/rmtDev",
       dates: "October 2024",
       active: true,
       description:
@@ -266,8 +271,13 @@ export const DATA = {
       ],
       links: [
         {
+          type: "Website",
+          href: "https://rmt-dev-sigma.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Github",
-          href: "https://github.com/Farelart/Bytegrad-professional-JS/tree/main/rmtDev",
+          href: "https://github.com/Farelart/rmtDev",
           icon: <Icons.github className="size-3" />,
         },
       ],
