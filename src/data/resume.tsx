@@ -79,6 +79,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Winea",
+      href: "https://winea.app",
+      badges: [],
+      location: "Canada, Remote",
+      title: "Software Engineer",
+      logoUrl: "/assets/work/winea.png",
+      start: "Dec 2024",
+      end: "Present",
+      description: "",
+    },
+    {
       company: "AI Movement - UM6P",
       href: "https://aim.um6p.ma/en/home/",
       badges: [],
@@ -117,7 +128,7 @@ export const DATA = {
       href: "https://www.alitchateam.com/",
       badges: [],
       location: "Bénin",
-      title: "Co-founder(Part-time)",
+      title: "Co-Partner(Part-time)",
       logoUrl: "/assets/work/alitcha.png",
       start: "Jan 2022",
       end: "Present",
