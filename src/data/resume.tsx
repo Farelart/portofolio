@@ -8,7 +8,7 @@ export const DATA = {
   location: "Maroc, MA",
   locationLink: "",
   description:
-    "Goal-oriented AI Software Developer | ML/DL Enthusiast. I like the sweet spot between research and software development.",
+    "Goal-oriented AI Software Engineer | ML/DL Enthusiast. I like the sweet spot between research and software development.",
   summary:
     "I'm a passionate AI Engineer based in Morocco, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
   avatarUrl: "/me.jpg",
