@@ -204,7 +204,7 @@ export const DATA = {
       dates: "Feb 2025",
       active: true,
       description:
-        "ScrapeRAG – An AI-powered GitHub code analysis tool that pulls source code and commits from a repository, enabling interactive chat to retrieve relevant code snippets and insights.",
+        "This is a computer use AI agent I built to perform tasks on my computer using natural language commands. It can open applications, search the web, etc ... It got me selected for a competitive startup bootcamp in morocco(THE FORGE - UM6P), out of 2000+ applicants.",
       technologies: [
         "OpenAI",
         "Anthropic",
