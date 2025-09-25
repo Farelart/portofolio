@@ -8,9 +8,9 @@ export const DATA = {
   location: "Maroc, MA",
   locationLink: "",
   description:
-    "Goal-oriented AI Software Engineer | ML/DL Enthusiast. I like the sweet spot between research and software development.",
+    "An AI Software Engineer | ML/DL Enthusiast. I like the sweet spot between AI research and software development.",
   summary:
-    "I'm a passionate AI Engineer based in Morocco, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
+    "I'm a passionate AI Engineer previously based in Morocco, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
   avatarUrl: "/me.jpg",
   ogImage: "https://yyassif.dev/og-image.png",
   skills: [
@@ -40,7 +40,13 @@ export const DATA = {
     "Docker",
     "CI/CD",
     "GCP",
+    "Azure",
+    "Vercel",
     "Git & GitHub / GitLab",
+    "Mathematical Optimiation",
+    "Gurobi",
+    "CLEX",
+    "SCIP"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -64,7 +70,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/FGanlaky",
+        url: "https://x.com/farel_ganlaky",
         icon: Icons.x,
         navbar: true,
       },
@@ -85,8 +91,8 @@ export const DATA = {
       location: "Canada, Remote",
       title: "Software Engineer",
       logoUrl: "/assets/work/winea.png",
-      start: "Dec 2024",
-      end: "Present",
+      start: "Jan 2025",
+      end: "May 2025",
       description: "",
     },
     {
@@ -97,10 +103,10 @@ export const DATA = {
       title: "AI Research Assistant",
       logoUrl: "/assets/work/aim.png",
       start: "Feb 2024",
-      end: "Aug 2024",
+      end: "Dec 2024",
       description: "Work on the integration of machine learning into the branch-and-bound to efficiently sove VRP with trucks and drones as well as software development.",
     },
-    {
+    /* {
       company: "Chien.com",
       href: "https://www.chien.com/",
       badges: [],
@@ -110,14 +116,14 @@ export const DATA = {
       start: "Aug 2023",
       end: "Present",
       description:
-        "",
-    },
+        "",sociés 
+    }, */
     {
       company: "Wetillix",
       badges: [],
       href: "https://wetillix.com/fr",
       location: "On-site",
-      title: "Java Software Engineer",
+      title: "Java Intern",
       logoUrl: "/assets/work/wetillix.png",
       start: "Jul 2021",
       end: "Sept 2021",
@@ -128,14 +134,14 @@ export const DATA = {
       href: "https://www.alitchateam.com/",
       badges: [],
       location: "Bénin",
-      title: "Co-Partner(Part-time)",
+      title: "Founding Engineer(Part-time)",
       logoUrl: "/assets/work/alitcha.png",
-      start: "Jan 2022",
-      end: "Present",
+      start: "Dec 2022",
+      end: "2024",
       description:
         "",
     },
-    {
+    /* {
       company: "Simplypay(Canada)",
       href: "https://simplypay.ca/en/home/",
       badges: [],
@@ -146,7 +152,7 @@ export const DATA = {
       end: "Oct 2022",
       description:
         "",
-    },
+    }, */
     
   ],
   education: [
@@ -155,16 +161,107 @@ export const DATA = {
       href: "http://www.ensam-umi.ac.ma/?lang=en",
       degree: "Master of Engineering in Artificial Intelligence & Data Science",
       logoUrl: "/assets/education/ensam.png",
-      start: "2019",
+      start: "2018",
       end: "2024",
     },
     
   ],
   projects: [
     {
+      title: "DΩME | Nōva",
+      href: "https://dome.computer",
+      dates: "Present(Part-time)",
+      active: true,
+      description:
+        "I am building DΩME an AI research lab and the first product is Nōva: an AI-powered desktop assistant that integrates with various applications to enhance productivity and streamline workflows.",
+      technologies: [
+        "OpenAI",
+        "Mastra",
+        "Microsoft Azure",
+        "Next.js",
+        "Electron.js",
+        "React",
+        "Firebase",
+        "Better-Auth",
+        "AI Agents",
+        "TailwindCSS",
+        "Vercel",
+        "RAG"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dome.computer",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/assets/projects/nova.png",
+      video: "",
+    },
+    {
+      title: "Computer use Agent",
+      href: "https://github.com/Farelart/novaa-computer-use",
+      dates: "Feb 2025",
+      active: true,
+      description:
+        "ScrapeRAG – An AI-powered GitHub code analysis tool that pulls source code and commits from a repository, enabling interactive chat to retrieve relevant code snippets and insights.",
+      technologies: [
+        "OpenAI",
+        "Anthropic",
+        "PyautoGUI",
+        "TypeScript",
+        "LangChain",
+        "SQLAchemy",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Farelart/novaa-computer-use",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/14hURGS2iFaL3fHt7nNucp8njTFw4Q1bm/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/assets/projects/cua.png",
+      video: "",
+    },
+    {
+      title: "Winea",
+      href: "https://drive.google.com/file/d/1JNiZCpZalPhvwOEhwqHWcr_aQ_oSiwnd/view?usp=sharing",
+      dates: "Jan 2025-May 2025",
+      active: true,
+      description:
+        "Winea is an AI-powered app made for ecommerce professional to track and analyze thes best ads and winning products on the market. Made heavily by scraping Meta Ads library and using AI to analyze the data.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Selenium",
+        "Playwright",
+        "Neon",
+        "PgVector",
+        "Clerk",
+        "GoogleAuth",
+        "TailwindCSS",
+        "OpenAI",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/1JNiZCpZalPhvwOEhwqHWcr_aQ_oSiwnd/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/assets/projects/Winea.webp",
+      video: "",
+    },
+    {
       title: "ScrapeRAG",
       href: "https://github.com/Farelart/scrapeRag",
-      dates: "December 2024 - Present",
+      dates: "December 2024",
       active: true,
       description:
         "ScrapeRAG – An AI-powered GitHub code analysis tool that pulls source code and commits from a repository, enabling interactive chat to retrieve relevant code snippets and insights.",
@@ -189,6 +286,11 @@ export const DATA = {
           href: "https://github.com/Farelart/scrapeRag",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/1mKcjtZDDGNQceCFBMEel-cJ0Lmj22Yms/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "/assets/projects/scraperag.png",
       video: "",
@@ -200,13 +302,18 @@ export const DATA = {
       active: true,
       description:
         "An interactive application designed to generate extensive datasets for VRP (Vehicle Routing Problem) involving trucks and drones, and to simulate routes generated by our models.",
-      technologies: ["FastAPI", "Gurobi", "Numpy", "Operational Research", "Imitation Learning", "Google Maps api","HTMX"],
+      technologies: ["FastAPI", "GCP", "Gurobi", "Numpy", "Operational Research", "Imitation Learning", "Google Maps api","HTMX"],
       links: [
         {
           type: "Github",
           href: "https://github.com/Farelart/VRP_app",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/1Qy11DgyzcRL_sa7TsJ_m5VBGcFv--GXl/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "/assets/projects/vrp_app.png",
       video: "",
@@ -406,6 +513,11 @@ export const DATA = {
           href: "https://github.com/Farelart/YOLO-custom-PPE-detection",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Demo",
+          href: "https://drive.google.com/file/d/1OXnDi1pUpQvhIoSRo0YpbWOkodpWvZAR/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        }
       ],
       image: "/assets/projects/ppe.png",
       video: "",
