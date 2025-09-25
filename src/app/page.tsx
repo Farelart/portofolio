@@ -152,8 +152,8 @@ export const metadata: Metadata = {
   },
   authors: [
     {
-      name: "yyassif",
-      url: "https://yyassif.dev",
+      name: "",
+      url: "",
     },
   ],
   creator: "GANLAKY Farel",
@@ -173,8 +173,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    site: "@yassineyassif",
-    creator: "@yassineyassif",
+    site: "",
+    creator: "",
     images: [DATA.ogImage],
   },
   verification: {
@@ -300,7 +300,7 @@ export default function Page() {
                     My Projects
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                    Check out my latest work
+                    Check out some of my latest work
                   </h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     I&apos;ve worked on a variety of projects, from simple to
