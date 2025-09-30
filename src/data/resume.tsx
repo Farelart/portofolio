@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Farel Ganlaky",
   initials: "FG",
-  url: "https://farel",
+  url: "",
   location: "Maroc, MA",
   locationLink: "",
   description:
@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     "I'm a passionate AI Engineer previously based in Morocco, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
   avatarUrl: "/me.jpg",
-  ogImage: "https://yyassif.dev/og-image.png",
+  ogImage: "",
   skills: [
     "TypeScript",
     "Python",
@@ -141,7 +141,7 @@ export const DATA = {
       end: "2024",
       description: "",
     },
-    /* {
+    {
       company: "Simplypay(Canada)",
       href: "https://simplypay.ca/en/home/",
       badges: [],
@@ -150,9 +150,8 @@ export const DATA = {
       logoUrl: "/assets/work/simplypay.jpg",
       start: "April 2022",
       end: "Oct 2022",
-      description:
-        "",
-    }, */
+      description: "",
+    },
   ],
   education: [
     {
