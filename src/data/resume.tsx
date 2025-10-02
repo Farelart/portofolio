@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "An AI Software Engineer | ML/DL Enthusiast. I like the sweet spot between AI research and software development.",
   summary:
-    "I'm a passionate AI Engineer previously based in Morocco, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
+    "I'm a passionate AI Software Engineer, with a robust foundation in front-end and back-end development, coupled with a deep interest in AI research. I specialize in leveraging state-of-the-art research to build innovative software solutions. My career goal is to [bridge the gap between cutting-edge AI research and practical applications, to create meaningful and impactful technologies.](/#education)",
   avatarUrl: "/me.jpg",
   ogImage: "",
   skills: [
@@ -20,9 +20,12 @@ export const DATA = {
     "C++",
     "Node.js",
     "Next.js",
+    "Electron.js",
     "Flask",
     "FastAPI",
+    "Django",
     "React",
+    "Prisma",
     "zustand",
     "zod",
     "TailwindCSS",
@@ -43,9 +46,11 @@ export const DATA = {
     "Azure",
     "Vercel",
     "Git & GitHub / GitLab",
+    "Computer Vision",
+    "NLP",
     "Mathematical Optimiation",
     "Gurobi",
-    "CLEX",
+    "CPLEX",
     "SCIP",
   ],
   navbar: [
@@ -85,7 +90,19 @@ export const DATA = {
 
   work: [
     {
-      company: "Winea",
+      company: "Anixi Health - South Africa - Remote(Part time)",
+      href: "https://anixihealth.com/",
+      badges: [],
+      location: "South Africa, Remote",
+      title: "AI Consultant",
+      logoUrl: "/assets/work/Anixihealth.png",
+      start: "Sept 2025",
+      end: "",
+      description:
+        "Buildind a health AI companion that can remember and trigger reminders to take medication, give personalized recommendations for healthy habits, and connect with healthcare providers.",
+    },
+    {
+      company: "Winea - Canada - Remote",
       href: "https://winea.app",
       badges: [],
       location: "Canada, Remote",
@@ -93,10 +110,11 @@ export const DATA = {
       logoUrl: "/assets/work/winea.png",
       start: "Jan 2025",
       end: "May 2025",
-      description: "",
+      description:
+        "Built an Ad library AI-powered app that helps ecommerce businesses analyze ads and find winning products for better visibility and sales.",
     },
     {
-      company: "AI Movement - UM6P",
+      company: "AI Movement - UM6P -Morocco",
       href: "https://aim.um6p.ma/en/home/",
       badges: [],
       location: "Rabat, Morocco",
@@ -120,7 +138,7 @@ export const DATA = {
         "",sociés 
     }, */
     {
-      company: "Wetillix",
+      company: "Wetillix - Morocco",
       badges: [],
       href: "https://wetillix.com/fr",
       location: "On-site",
@@ -132,7 +150,7 @@ export const DATA = {
     },
     {
       company: "Alitcha",
-      href: "https://www.alitchateam.com/",
+      href: "",
       badges: [],
       location: "Bénin",
       title: "Founding Engineer(Part-time)",
@@ -142,11 +160,11 @@ export const DATA = {
       description: "",
     },
     {
-      company: "Simplypay(Canada)",
+      company: "Simplypay-Canada",
       href: "https://simplypay.ca/en/home/",
       badges: [],
       location: "Remote, Canada",
-      title: "Sales Representatice",
+      title: "Sales Representative",
       logoUrl: "/assets/work/simplypay.jpg",
       start: "April 2022",
       end: "Oct 2022",
@@ -167,16 +185,17 @@ export const DATA = {
     {
       title: "DΩME | Nōva",
       href: "https://dome.computer",
-      dates: "Present(Part-time)",
+      dates: "Sep 2025-Present(Part-time)",
       active: true,
       description:
-        "I am building DΩME an AI research lab and the first product is Nōva: an AI-powered desktop assistant that integrates with various applications to enhance productivity and streamline workflows.",
+        "I am building DΩME a small part-time AI research lab and the first product is Nōva: an AI-powered desktop assistant that integrates with various applications to enhance productivity and streamline workflows.",
       technologies: [
         "Electron.js",
         "Next.js",
         "React",
         "OpenAI",
         "Mastra",
+        "Vercel-ai-sdk",
         "Microsoft Azure",
         "Firebase",
         "Better-Auth",
@@ -219,7 +238,7 @@ export const DATA = {
         {
           type: "Demo",
           href: "https://drive.google.com/file/d/14hURGS2iFaL3fHt7nNucp8njTFw4Q1bm/view?usp=sharing",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/projects/cua.png",
@@ -235,12 +254,13 @@ export const DATA = {
       technologies: [
         "Next.js",
         "TypeScript",
+        "Prisma",
         "Selenium",
         "Playwright",
+        "Apify",
         "Neon",
         "PgVector",
         "Clerk",
-        "GoogleAuth",
         "TailwindCSS",
         "OpenAI",
         "Vercel",
@@ -249,10 +269,37 @@ export const DATA = {
         {
           type: "Demo",
           href: "https://drive.google.com/file/d/1JNiZCpZalPhvwOEhwqHWcr_aQ_oSiwnd/view?usp=sharing",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/projects/Winea.webp",
+      video: "",
+    },
+    {
+      title: "Bara(Side-project)",
+      href: "https://www.bara.propulsai.com",
+      dates: "Dec 2024-March 2025",
+      active: true,
+      description:
+        "I co-built Bara, an innovative job search platform dedicated to Francophone Africa. Designed to address the challenges of the labor market, it leverages artificial intelligence to optimize the recruitment process and effectively connect talent with professional opportunities.",
+      technologies: [
+        "React.js",
+        "Django",
+        "PostgreSQL",
+        "Jenkins",
+        "Nginx",
+        "Docker",
+        "Gemini",
+        "OpenAI sdk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.bara.propulsai.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/assets/projects/bara.png",
       video: "",
     },
     {
@@ -266,14 +313,13 @@ export const DATA = {
         "OpenAI",
         "Gemini",
         "Next.js",
-        "TypeScript",
+        "Prisma",
         "Neon",
         "PgVector",
         "Clerk",
         "GoogleAuth",
         "TailwindCSS",
         "LangChain",
-        "Docker",
         "Vercel",
         "RAG",
       ],
@@ -302,6 +348,7 @@ export const DATA = {
       technologies: [
         "FastAPI",
         "GCP",
+        "Docker",
         "Gurobi",
         "Numpy",
         "Operational Research",
@@ -318,7 +365,7 @@ export const DATA = {
         {
           type: "Demo",
           href: "https://drive.google.com/file/d/1Qy11DgyzcRL_sa7TsJ_m5VBGcFv--GXl/view?usp=sharing",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/projects/vrp_app.png",
@@ -335,6 +382,8 @@ export const DATA = {
         "Next.js",
         "React.js",
         "Tailwind CSS",
+        "Prisma",
+        "Postgressql",
         "Server actions",
         "Typescript",
         "OpenAI",
@@ -522,7 +571,7 @@ export const DATA = {
         {
           type: "Demo",
           href: "https://drive.google.com/file/d/1OXnDi1pUpQvhIoSRo0YpbWOkodpWvZAR/view?usp=sharing",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.googleDrive className="size-3" />,
         },
       ],
       image: "/assets/projects/ppe.png",
@@ -543,7 +592,6 @@ export const DATA = {
         "PostgreSQL",
         "TailwindCSS",
         "Shadcn UI",
-        "Docker",
       ],
       links: [
         {
