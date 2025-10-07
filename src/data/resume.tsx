@@ -183,12 +183,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "DΩME | Nōva",
+      title: "DΩME | Nōva (Side-project)",
       href: "https://dome.computer",
-      dates: "Sep 2025-Present(Part-time)",
+      dates: "Sep 2025(Part-time)",
       active: true,
       description:
-        "I am building DΩME a small part-time AI research lab and the first product is Nōva: an AI-powered desktop assistant that integrates with various applications to enhance productivity and streamline workflows.",
+        "I am building DΩME a small part-time AI research lab and the first product is Nōva: an AI-powered desktop assistant that integrates see, understand your screen and have access to your files.",
       technologies: [
         "Electron.js",
         "Next.js",
@@ -202,7 +202,6 @@ export const DATA = {
         "AI Agents",
         "TailwindCSS",
         "Vercel",
-        "RAG",
       ],
       links: [
         {
@@ -221,14 +220,7 @@ export const DATA = {
       active: true,
       description:
         "This is a computer use AI agent I built to perform tasks on my computer using natural language commands. It can open applications, search the web, etc ... It got me selected for a competitive startup bootcamp in morocco(THE FORGE - UM6P), out of 2000+ applicants.",
-      technologies: [
-        "OpenAI",
-        "Anthropic",
-        "PyautoGUI",
-        "TypeScript",
-        "LangChain",
-        "SQLAchemy",
-      ],
+      technologies: ["pydantic", "PyautoGUI", "LangChain", "tkinter"],
       links: [
         {
           type: "Github",
